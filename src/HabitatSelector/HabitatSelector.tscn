@@ -1,0 +1,167 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/HabitatSelector/HabitatSelectorButton.tscn" type="PackedScene" id=1]
+
+[node name="HabitatSelector" type="Control"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -114.0
+margin_top = -178.0
+margin_right = 114.0
+margin_bottom = 178.0
+rect_min_size = Vector2( 228, 356 )
+
+[node name="HabitatSelectorGrid" type="GridContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -114.0
+margin_top = -178.0
+margin_right = 114.0
+margin_bottom = 178.0
+columns = 2
+
+[node name="HabitatSelectorButton" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 112.0
+margin_bottom = 56.0
+
+[node name="HabitatSelectorButton2" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 116.0
+margin_top = 0.0
+margin_right = 228.0
+margin_bottom = 56.0
+habitat = "Outback"
+background_texture = "res://assets/images/outback/OutBackBackground.png"
+
+[node name="HabitatSelectorButton3" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 60.0
+margin_right = 112.0
+margin_bottom = 116.0
+habitat = "Savanna"
+background_texture = "res://assets/images/savanna/SavannaBackground.png"
+
+[node name="HabitatSelectorButton4" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 116.0
+margin_top = 60.0
+margin_right = 228.0
+margin_bottom = 116.0
+habitat = "Northern"
+background_texture = "res://assets/images/northern/NorthernBackground.png"
+
+[node name="HabitatSelectorButton5" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 120.0
+margin_right = 112.0
+margin_bottom = 176.0
+habitat = "Polar"
+background_texture = "res://assets/images/polar/PolarBackground.png"
+
+[node name="HabitatSelectorButton6" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 116.0
+margin_top = 120.0
+margin_right = 228.0
+margin_bottom = 176.0
+habitat = "Jungle"
+background_texture = "res://assets/images/jungle/JungleBackground.png"
+
+[node name="HabitatSelectorButton7" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 180.0
+margin_right = 112.0
+margin_bottom = 236.0
+habitat = "Jurassic"
+background_texture = "res://assets/images/jurassic/JurassicBackground.png"
+
+[node name="HabitatSelectorButton8" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 116.0
+margin_top = 180.0
+margin_right = 228.0
+margin_bottom = 236.0
+habitat = "Ice Age"
+background_texture = "res://assets/images/iceage/IceAgeBackground.png"
+
+[node name="HabitatSelectorButton9" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 240.0
+margin_right = 112.0
+margin_bottom = 296.0
+habitat = "City"
+background_texture = "res://assets/images/city/CityBackground.png"
+
+[node name="HabitatSelectorButton10" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 116.0
+margin_top = 240.0
+margin_right = 228.0
+margin_bottom = 296.0
+habitat = "Mountain"
+background_texture = "res://assets/images/mountain/MountainBackground.png"
+
+[node name="HabitatSelectorButton11" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 300.0
+margin_right = 112.0
+margin_bottom = 356.0
+habitat = "Moon"
+background_texture = "res://assets/images/moon/MoonBackground.png"
+
+[node name="HabitatSelectorButton12" parent="HabitatSelectorGrid" instance=ExtResource( 1 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 116.0
+margin_top = 300.0
+margin_right = 228.0
+margin_bottom = 356.0
+habitat = "Mars"
+background_texture = "res://assets/images/mars/MarsBackground.png"
