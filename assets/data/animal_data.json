@@ -52,7 +52,7 @@
     "43":{"name":"Diplodocus","tile_image_path":"res://assets/images/jurassic/DiplodocusTile.png","pattern":[[0,0],[1,1],[1,2],[2,1]]},
     "44":{"name":"Stegosaurus","tile_image_path":"res://assets/images/jurassic/StegosaurusTile.png","pattern":[[0,1],[1,0],[2,0],[3,1]]},
     "45":{"name":"Raptor","tile_image_path":"res://assets/images/jurassic/RaptorTile.png","pattern":[[0,0],[1,0],[1,1],[2,2]]},
-    "46":{"name":"T Rex","tile_image_path":"res://assets/images/jurassic/TrexTile.png","pattern":[[0,0],[0,2],[1,2]]},
+    "46":{"name":"T Rex","tile_image_path":"res://assets/images/jurassic/TRexTile.png","pattern":[[0,0],[0,2],[1,2]]},
     "48":{"name":"Triceratops","tile_image_path":"res://assets/images/jurassic/TriceratopsTile.png","pattern":[[0,0],[0,2],[2,1]]},
     "47":{"name":"Dragon","tile_image_path":"res://assets/images/jurassic/DragonTile.png","pattern":[[0,0],[2,1]]},
     "49":{"name":"Ankylosaurus","tile_image_path":"res://assets/images/jurassic/AnkylosaurusTile.png","pattern":[[0,1],[2,0],[2,1]]},
